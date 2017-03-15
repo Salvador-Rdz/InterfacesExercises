@@ -10,7 +10,7 @@ package interfacesexercises;
  * @author Salvador
  */
 public class Human {
-    protected String name;
+    protected String name; //Base class, has the "name" attribute and a ToString method
     
     public Human(String name)
     {

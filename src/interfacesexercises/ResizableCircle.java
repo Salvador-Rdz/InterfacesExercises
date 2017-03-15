@@ -9,12 +9,14 @@ package interfacesexercises;
  *
  * @author Salvador
  */
-public class ResizableCircle extends Circle implements iResizable {
-    
+public class ResizableCircle extends Circle implements iResizable { //Inherits from the class circle, and implements methods
+    //from iResizable
+    //Constructor
     public ResizableCircle(double radius)
     {
         super (radius);
     }
+    //iRezisable's methods
     @Override
     public void resize(int percent) 
     {

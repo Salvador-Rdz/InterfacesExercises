@@ -9,8 +9,8 @@ package interfacesexercises;
  *
  * @author Salvador
  */
-public class CDPlayer implements iPlayer {
-
+public class CDPlayer implements iPlayer { //Implements the iPlayer interface
+    //The methods print what the object is doing
     @Override
     public void play() {
         System.out.println("CDPlayer is playing");

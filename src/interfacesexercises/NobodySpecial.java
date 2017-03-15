@@ -9,12 +9,12 @@ package interfacesexercises;
  *
  * @author Salvador
  */
-public class NobodySpecial extends Human{
-
+public class NobodySpecial extends Human{ //Extends from the Human class, not implementing any interfaces
+    //Constructor 
     public NobodySpecial(String name) {
         super(name);
     }
-
+    
     @Override
     public String toString() {
         return "NobodySpecial{" + super.toString()+ '}';

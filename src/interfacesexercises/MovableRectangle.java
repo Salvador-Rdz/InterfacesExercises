@@ -9,16 +9,17 @@ package interfacesexercises;
  *
  * @author Salvador
  */
-public class MovableRectangle implements Movable{
+public class MovableRectangle implements Movable{//Implements the movable interface
+   //Uses two movable points to reflect the rectangle
     private MovablePoint topLeft;
     private MovablePoint bottomRight;
-
+    //Constructor - Has the necessary data to create two MovablePoints as parameters
     public MovableRectangle(int x1, int y1, int x2, int y2, int xSpeed, int ySpeed) 
     {
         this.topLeft = new MovablePoint(x1, y1, xSpeed, ySpeed);
         this.bottomRight = new MovablePoint(x2, y2, xSpeed, ySpeed);
     }
-    
+    //Movable methods
     @Override
     public void MoveUp() {
         this.topLeft.y+=this.topLeft.ySpeed;

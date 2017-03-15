@@ -10,7 +10,7 @@ package interfacesexercises;
  * @author Salvador
  */
 public class IndustrialPlumber extends Human implements iPlumber{
-
+    //Inherits name and toString from the "human" class, and unplugDrain from the interface iPlumber
     public IndustrialPlumber(String name)
     {
         super(name);

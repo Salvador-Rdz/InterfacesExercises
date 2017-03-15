@@ -18,7 +18,7 @@ public class Studio  {
     {
         this.playerList= new ArrayList();
     }
-    
+    //Demonstrates how a list designed for the interface iPlayer can accept any Class that implements it.
     public void addPlayer(iPlayer player)
     {
         this.playerList.add(new DVDPlayer ());

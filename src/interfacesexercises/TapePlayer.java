@@ -9,8 +9,8 @@ package interfacesexercises;
  *
  * @author Salvador
  */
-public class TapePlayer implements iRecorder{
-
+public class TapePlayer implements iRecorder{ //Implements iRecorder, which inherits from iPlayer
+    //That allows to have both interfaces methods
     @Override
     public void record() {
         System.out.println("TapePlayer is recording");

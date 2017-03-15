@@ -9,13 +9,14 @@ package interfacesexercises;
  *
  * @author Salvador
  */
-public class Circle implements iGeometricObject{
+public class Circle implements iGeometricObject{ //Implements iGeometricObject
     protected double radius;
+    //Constructor
     public Circle (double radius)
     {
-        this.radius=radius;
+        this.radius=radius; 
     }
-
+    //iGeometricObject's methods
     @Override
     public double getPerimeter() {
         return this.radius*this.radius*Math.PI;

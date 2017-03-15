@@ -9,8 +9,8 @@ package interfacesexercises;
  *
  * @author Salvador
  */
-public class DVDPlayer implements iPlayer{
-
+public class DVDPlayer implements iPlayer{ //implements iPlayer
+    //iPlayer's methods, prints the current state of the DVDPlayer
     @Override
     public void play() {
         System.out.println("DVDPlayer is playing");

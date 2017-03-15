@@ -9,11 +9,13 @@ package interfacesexercises;
  *
  * @author Salvador
  */
-public class MovablePoint implements Movable{
+public class MovablePoint implements Movable{ //Implements the movable interface
+    //Coordinates and movement ratio
     int x;
     int y;
     int xSpeed;
     int ySpeed;
+    //Constructor
     public MovablePoint(int x, int y, int xSpeed, int ySpeed)
     {
         this.x=x;
@@ -21,6 +23,7 @@ public class MovablePoint implements Movable{
         this.xSpeed=xSpeed;
         this.ySpeed=ySpeed;
     }
+    //Methods from the movable interface
     @Override
     public void MoveUp() {
         this.y+=this.ySpeed;
